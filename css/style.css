@@ -45,6 +45,8 @@ Developer @GA in NYC
 
 body {
   font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0 auto;
+  background-color: #f0efef;
 }
 h1 {
   font-weight: 800;
@@ -96,4 +98,65 @@ footer a {
   padding-left: 25px;
   padding-right: 25px;
 }
+.content {
+    width: 960px;
+  }
 
+/* Header */
+header {
+  height: 120px;
+  background-color: #033048;
+}
+header nav ul { 
+  list-style: none; 
+}
+.nav-element {
+  margin-left: 15px;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9e42e;
+}
+.headercontainer {
+  width: 960px;
+}
+
+/* Blogs */
+.blog-area {
+  width: 700px;
+  float: left;
+  overflow: hidden;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600px;
+  color: #033048;
+}
+p {
+  font-size: 24px;
+  font-weight: 300px;
+  color: #606161;
+}
+.blog-link {
+  font-size: 24px;
+  font-weight: 600;
+}
+.divider {
+  height: 1px;
+  width: 700px;
+  background-color: #606161;
+  margin-top: 20px;
+}
+
+/* Side Bar */
+.side-bar {
+  width: 249px;
+  overflow: hidden;
+  margin-left: 0;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+}
